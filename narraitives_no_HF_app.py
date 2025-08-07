@@ -8,11 +8,7 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-# %pip install streamlit transformers torch newspaper3k beautifulsoup4 lxml requests lxml_html_clean
-
-from transformers import pipeline
-
-pipe = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", token="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")
+# %pip install streamlit torch newspaper3k beautifulsoup4 lxml requests lxml_html_clean
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
