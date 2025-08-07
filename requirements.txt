@@ -1,8 +1,5 @@
-streamlit
-transformers
-torch
-newspaper3k
-beautifulsoup4
-lxml
-requests
-lxml_html_clean
+matplotlib==3.10.5
+newspaper3k==0.2.8
+pandas==2.3.1
+streamlit==1.48.0
+transformers==4.54.1
