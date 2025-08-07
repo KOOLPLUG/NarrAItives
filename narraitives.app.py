@@ -23,6 +23,8 @@ pipe = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", to
 # from transformers import pipeline
 # import matplotlib.pyplot as plt
 # import pandas as pd
+# Set Hugging Face cache directory
+os.environ['HF_HOME'] = '/tmp/huggingface_cache'
 # 
 # # Set Hugging Face token from Streamlit secrets
 # # Access the token using st.secrets.get('HF_TOKEN')
